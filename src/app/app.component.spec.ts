@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'DGA_DM_MANAGER' title`, () => {
+  it(`should have the 'DGA_DB_MANAGER' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('DGA_DM_MANAGER');
+    expect(app.title).toEqual('DGA_DB_MANAGER');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, DGA_DM_MANAGER');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, DGA_DB_MANAGER');
   });
 });

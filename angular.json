@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "DGA_DM_MANAGER": {
+    "DGA_DB_MANAGER": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "DGA_DM_MANAGER:build:production"
+              "buildTarget": "DGA_DB_MANAGER:build:production"
             },
             "development": {
-              "buildTarget": "DGA_DM_MANAGER:build:development"
+              "buildTarget": "DGA_DB_MANAGER:build:development"
             }
           },
           "defaultConfiguration": "development"
